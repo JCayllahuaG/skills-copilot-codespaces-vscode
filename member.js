@@ -1,9 +1,8 @@
-function skillMember() {
-    var member = {
-        name: "John Doe",
-        age: 25,
-        skills: ["HTML", "CSS", "JS"],
-        "full name": "John Doe"
-    };
-    return member;
+function skillsMember() {
+  return {
+    skills: ['Javascript', 'React', 'Node', 'HTML', 'CSS', 'Express', 'MongoDB', 'Python', 'Django', 'Flask', 'Java', 'Spring', 'C#', 'ASP.NET', 'SQL', 'Ruby', 'Rails', 'PHP', 'Laravel'],
+    getSkills: function() {
+      return this.skills;
+    }
+  };
 }
